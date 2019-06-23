@@ -169,7 +169,7 @@ class Profile extends Component {
         })
         :  
         this.setState({
-            phoneValid : ""
+            phoneValid : "*"
         })
         return !isNaN(num)
     }
@@ -204,13 +204,13 @@ class Profile extends Component {
             localStorage.setItem("name", JSON.stringify(self.state.name));
             localStorage.setItem("phone", JSON.stringify(self.state.phone));
             localStorage.setItem("address", JSON.stringify(self.state.address));
-            localStorage.setItem("pw", JSON.stringify(self.state.pw2));
-
-           console.log(self.state.pw2)
+            var password;
+            if(self.state.toggle) password = self.state.pw2;
+            else password = self.state.checkPw;
             axios.put('https://5ca5c51d3a08260014278a74.mockapi.io/usersShop/'+self.state.id,
                 {
                     name: self.state.name, phone: self.state.phone,
-                    address:self.state.address,pw:self.state.pw2
+                    address:self.state.address,pw:password
                 }
             )
             .then (alert("Thay đổi thông tin thành công !"))
