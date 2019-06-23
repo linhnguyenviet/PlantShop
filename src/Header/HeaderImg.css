@@ -1,0 +1,72 @@
+.HeaderImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderImg-wrap {
+  width: 1140px;
+  margin: auto;
+  height: 150px;
+  position: relative;
+}
+.HeaderImg-wrapInner {
+  display: flex;
+  width: 555px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+.HeaderImg-inner {
+  display: inline-block;
+  margin-top: 0px;
+}
+.HeaderImg-inner span {
+  font-size: 0.8em;
+  color: gray;
+}
+.HeaderImg-cart {
+  display: inline-block;
+  margin-top: 0px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.HeaderImg-cart i {
+  font-size: 1.2em;
+  color: rgb(41, 41, 41);
+}
+.HeaderImg-cart span {
+  font-size: 0.8em;
+  color: rgb(29, 29, 29);
+  font-weight: 500;
+}
+.HeaderImg img:first-child {
+  width: 300px;
+  padding-bottom: 30px;
+}
+.HeaderImg img:nth-child(2) {
+  width: 140px;
+  padding-top: 10px;
+}
+.HeaderImg form {
+  border-radius: 25px;
+  border: 1px solid #eeeeee;
+  padding-left: 20px;
+  margin-top:16px;
+  overflow: hidden;
+}
+.HeaderImg form input {
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  width: 350px;
+}
+.HeaderImg form button {
+  border: none;
+  border-left: 1px solid #eeeeee;
+  outline: none;
+  padding: 15px;
+  background: white;
+  cursor: pointer;
+}

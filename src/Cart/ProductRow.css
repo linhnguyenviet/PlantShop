@@ -1,0 +1,97 @@
+.ProductRow td:first-child div {
+    width:150px;
+    margin:auto;
+    padding: 10px 0px;
+}
+
+.ProductRow img {
+    height:150px;
+}
+.ProductRow td  {
+    vertical-align: middle;
+    text-align: center;
+
+}
+.ProductRow td:nth-child(2) {
+    color:#3FB871;
+}
+.ProductRow td:nth-child(3) {
+    color:#5e5c5c;
+    
+}
+.ProductRow td:nth-child(5) {
+    color:#5e5c5c;
+}
+
+.ProductRow td:nth-child(4) .cartNumber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartNumber button{
+    display: inline-block;
+}
+/* .ProductRow td:nth-child(4) .cartNumber div {
+    width:42px;
+    height:42px;
+    border:1px solid rgb(180, 180, 180);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+} */
+.ProductRow i {
+    font-size: 1em;
+    color:white;
+    cursor: pointer;
+
+}
+.ProductRow .sub, .ProductRow .add, .ProductRow .dele {
+    border-radius:2px;
+    color:white;
+    padding:6px 8px;
+}
+.ProductRow .sub {
+    border :1px solid rgb(38, 84, 160);
+    background:rgb(38, 84, 160);
+    margin-left:20px;
+}
+.ProductRow .add {
+    border :1px solid rgb(172, 68, 68);
+    background:rgb(172, 68, 68);
+    margin-right:20px;
+}
+.ProductRow .dele {
+    border :1px solid rgb(197, 187, 99);
+    background:rgb(197, 187, 99);
+    
+}
+@media only screen and (max-width: 960px)  {
+    .ProductRow .sub {
+        margin-left:25%;
+    }
+    .ProductRow .add {
+        margin-right:25%;
+    }
+    .ProductRow {
+        border:1px solid rgb(235, 235, 235);
+        margin : 40px 0;
+    }
+    .ProductRow td {
+        padding: 20px 0;
+        padding-left:20%;
+
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .Cart h1 {
+    margin: 242px 0 63px 0;
+    font-size:23px;
+   }
+}
+@media only screen and (max-width: 480px){
+    .ProductRow td {
+        padding-left:0;
+    }
+}
+

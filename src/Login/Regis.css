@@ -1,0 +1,75 @@
+.Regis {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 85px;
+}
+
+.Regis div div div {
+    display: inline-block;
+}
+
+.Regis p {
+    font-size: 18px;
+    color: #3FB871;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Regis input[type=text] {
+    width: 450px;
+    height: 40px;
+    margin: 10px 50px 10px 0px;
+    padding: 3px 0 0 15px;
+}
+
+.Regis input[type=password] {
+    width: 500px;
+    height: 40px;
+    margin: 10px 50px 10px 0px;
+    padding: 3px 0 0 15px;
+}
+
+.Regis label {
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.Regis label span {
+    color: red;
+}
+
+.Regis .checkBox label {
+    display: inline-block;
+}
+
+.Regis .checkBox input[type=checkbox] {
+    background: white;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.Regis .Bottom {
+    margin-top: 70px;
+}
+
+.Regis button {
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid #3fb871;
+    background: #3fb871;
+    color: white;
+    font-size: 13px;
+    margin: 40px 20px 100px 0px;
+}
+
+.Regis .groupButton {
+    display: block;
+}
+
+.Regis .back {
+    background: white;
+    color: #3fb871;
+}

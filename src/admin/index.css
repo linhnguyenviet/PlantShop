@@ -1,0 +1,48 @@
+.adPage{
+    background-color: #01000005;
+    height: 100%;
+}
+.adHeader{
+    background-color: #283593;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.adLogOut{
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.adMain{
+    display: flex;
+}
+.adMain_menu{
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.adMain_menu-item{
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.adMain_menu-item:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.adMain_menu-item > span{
+    padding-left: 20px;
+}
+.adMain_menu-item > i{
+    width: 20px;
+}
+
+.adMain_content {
+    flex: 1;
+    padding: 10px;
+    padding-top: 50px;
+}

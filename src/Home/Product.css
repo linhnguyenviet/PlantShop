@@ -1,0 +1,129 @@
+.Product {
+    border: 1px solid rgb(150, 150, 150);
+    text-align: center;
+    position: relative;
+}
+
+.Product__text div:first-child {
+    padding: 20px 0px 15px 0px;
+}
+
+.Product__text div:nth-child(1) span {
+    color: #555555;
+}
+
+.Product__text div:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+.Product__text div:nth-child(2) span {
+    color: #febf01;
+}
+
+.Product__text div:nth-child(3) span {
+    color: #ed1c24;
+    font-weight: 500;
+}
+
+.Product__text div:nth-child(3) span:nth-child(2) {
+    color: #b4b4b4;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.product_hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.product_hover button span {
+    font-size: 1.1em;
+}
+
+.big>.product_hover button {
+    padding: 15px 30px;
+    background-color: #59b586;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.small>.product_hover button {
+    font-size: 14px;
+    padding: 12px 10px;
+    background-color: #59b586;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Product {
+    position: relative;
+}
+
+.Product .sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background: rgb(218, 63, 58);
+    padding: 20px 12px;
+    color: white;
+}
+
+.Product .new {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background: #3FB871;
+    padding: 20px 12px;
+    color: white;
+}
+
+.home .big .sale {
+    display: none;
+}
+
+.home .small .new {
+    display: none;
+}
+
+.Product:hover .Product__img {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.Product:hover .product_hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 360px) {
+    .Product__text div:first-child {
+        padding: 35px 0px 20px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .Product .sale {
+        padding: 12px;
+    }
+    .Product .new {
+        padding: 12px;
+    }
+}

@@ -1,0 +1,22 @@
+
+.NavBar {
+    display:flex;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3FB871;
+    margin: 0 auto;
+    justify-content: center;   
+    padding-right: 24%;
+
+  }
+  .NavBar li  {
+     cursor: pointer; 
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .NavBar li a {
+      font-size: 0.8em;
+  }
